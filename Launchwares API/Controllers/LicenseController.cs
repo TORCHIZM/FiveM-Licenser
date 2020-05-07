@@ -1,14 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using Launchwares_API.Firebase;
 using Launchwares_API.Models;
 using Microsoft.AspNetCore.Http;
-using System.Text.Json;
-using System.Text;
 
 namespace Launchwares_API.Controllers
 {
