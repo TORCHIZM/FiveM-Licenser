@@ -1,0 +1,30 @@
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.exe
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.csprojAssemblyReference.cache
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\staticwebassets\Launchwares API.StaticWebAssets.Manifest.cache
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\staticwebassets\Launchwares API.StaticWebAssets.xml
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.AssemblyInfoInputs.cache
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.AssemblyInfo.cs
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.RazorTargetAssemblyInfo.cache
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.deps.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.runtimeconfig.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.runtimeconfig.dev.json
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Launchwares API.pdb
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.pdb
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\FireSharp.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Microsoft.Threading.Tasks.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\System.Net.Http.Extensions.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\System.Net.Http.Primitives.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.csproj.CopyComplete
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\FireSharp.Serialization.JsonNet.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\FireSharp.Serialization.ServiceStack.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\bin\Debug\netcoreapp3.1\ServiceStack.Text.dll
+C:\Users\Torchizm\source\repos\Launchwares API\Launchwares API\obj\Debug\netcoreapp3.1\Launchwares API.MvcApplicationPartsAssemblyInfo.cache
