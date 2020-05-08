@@ -8,7 +8,6 @@ namespace Launchwares_API.Models
 {
     public static class Licenses
     {
-        //public static List<string> GetLicense(string product, string key, string ip)
         public static License GetLicense(string product, string key, string ip)
         {
             var licenses = API.Get<License>("Licenses");
@@ -19,16 +18,11 @@ namespace Launchwares_API.Models
                          where _license.Key == key
                          select _license;
 
-            if (license.FirstOrDefault() == null) return null;
-
-            var _list = new List<string>();
-            _list.Add(license.FirstOrDefault().ServerLua);
-            _list.Add(license.FirstOrDefault().ClientLua);
-
-            return license.FirstOrDefault();
+            return license.FirstOrDefault() ?? null;
         }
     }
     
+    [JsonObject]
     public class License
     {
         [JsonProperty("IP")]
