@@ -24,10 +24,10 @@ namespace Launchwares_API.Models
 
         public static License NullLicense(string ip, string product, string key)
         {
-            Webhook webhook = new Webhook(YOUR WEBHOOK ID, "YOUR WEBHOOK KEY") { 
+            Webhook webhook = new Webhook(YOUR WEBHOOK ID HERE, "YOUR WEBHOOK KEY HERE") { 
                 Username = "FiveM Licenser by Launchwares",
                 IsTTS = false,
-                Content = $"{ip} adresli kişi {key} anahtarıyla {product} ürününü kullanmaya çalıştı",
+                Content = $"{ip} ip address tried to use {product} with {key} key",
                 AvatarUrl = "https://cdn.discordapp.com/icons/678196890742947881/22697032b980bfcfabc978b360b11a23.png?size=512"
             };
             _ = webhook.Send();
@@ -38,15 +38,15 @@ namespace Launchwares_API.Models
     [JsonObject]
     public class License
     {
-        [JsonProperty("IP")]
+        [JsonProperty("ip")]
         public string IP { get; set; }
-        [JsonProperty("Key")]
+        [JsonProperty("key")]
         public string Key { get; set; }
-        [JsonProperty("Product")]
+        [JsonProperty("product")]
         public string Product { get; set; }
-        [JsonProperty("ServerLua")]
+        [JsonProperty("server")]
         public string ServerLua { get; set; }
-        [JsonProperty("ClientLua")]
+        [JsonProperty("client")]
         public string ClientLua { get; set; }
     }
 }

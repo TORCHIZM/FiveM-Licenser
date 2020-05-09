@@ -20,7 +20,7 @@ namespace Launchwares_API.Controllers
         public IEnumerable<Models.License> Get(string license, string product)
         {
             var ip = _accessor.HttpContext.Connection.RemoteIpAddress.ToString();
-            if (license == string.Empty || product == string.Empty) yield return null;
+            if (license == "" || product == "") yield return null;
             yield return Licenses.GetLicense(product, license, ip);
         }
     }
