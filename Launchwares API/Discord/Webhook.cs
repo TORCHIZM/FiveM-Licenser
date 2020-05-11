@@ -24,12 +24,21 @@ namespace Launchwares_API.Discord
         [JsonProperty("embeds")]
         public List<WebhookModels.Embed> Embeds { get; set; } = new List<WebhookModels.Embed>();
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="webhookUrl">Webhook URL</param>
         public Webhook(string webhookUrl)
         {
             _httpClient = new HttpClient();
             _webhookUrl = webhookUrl;
         }
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="id">Webhook ID</param>
+        /// <param name="token">Webhook Token</param>
         public Webhook(ulong id, string token) : this($"https://discordapp.com/api/webhooks/{id}/{token}")
         {
         }
@@ -40,7 +49,15 @@ namespace Launchwares_API.Discord
             return await _httpClient.PostAsync(_webhookUrl, content);
         }
 
-        // ReSharper disable once InconsistentNaming
+        /// <summary>
+        /// Sends message to webhook
+        /// </summary>
+        /// <param name="content">Content</param>
+        /// <param name="username">Username (Default null)</param>
+        /// <param name="avatarUrl">Avatar URL (Default null)</param>
+        /// <param name="isTTS">TTS (Default false)</param>
+        /// <param name="embeds">Embeds (Default null)</param>
+        /// <returns></returns>
         public async Task<HttpResponseMessage> Send(string content, string username = null, string avatarUrl = null, bool isTTS = false, IEnumerable<WebhookModels.Embed> embeds = null)
         {
             Content = content;

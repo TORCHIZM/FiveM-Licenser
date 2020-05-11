@@ -11,11 +11,21 @@ namespace Launchwares_API.Controllers
     {
         private IHttpContextAccessor _accessor;
 
+        /// <summary>
+        /// Constructor, it will give informations about client
+        /// </summary>
+        /// <param name="accessor"></param>
         public License(IHttpContextAccessor accessor)
         {
             _accessor = accessor;
         }
 
+        /// <summary>
+        /// Get method it will return script or null
+        /// </summary>
+        /// <param name="license">License</param>
+        /// <param name="product">Product</param>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<Models.License> Get(string license, string product)
         {

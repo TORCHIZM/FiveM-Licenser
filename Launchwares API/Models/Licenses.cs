@@ -9,6 +9,13 @@ namespace Launchwares_API.Models
 {
     public static class Licenses
     {
+        /// <summary>
+        /// Returns requested script informations or null
+        /// </summary>
+        /// <param name="product">Name of product in your firebase</param>
+        /// <param name="key">Key in your firebase</param>
+        /// <param name="ip">IP in your firebase</param>
+        /// <returns></returns>
         public static License GetLicense(string product, string key, string ip)
         {
             var licenses = API.Get<License>("Licenses");
@@ -22,9 +29,16 @@ namespace Launchwares_API.Models
             return license.FirstOrDefault() ?? NullLicense(ip, product, key);
         }
 
+        /// <summary>
+        /// Returns null and sends webhook
+        /// </summary>
+        /// <param name="ip"></param>
+        /// <param name="product"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
         public static License NullLicense(string ip, string product, string key)
         {
-            Webhook webhook = new Webhook(YOUR WEBHOOK ID HERE, "YOUR WEBHOOK KEY HERE") { 
+            Webhook webhook = new Webhook(YOUR WEBHOOK ID, "YOUR WEBHOOK TOKEN") { 
                 Username = "FiveM Licenser by Launchwares",
                 IsTTS = false,
                 Content = $"{ip} ip address tried to use {product} with {key} key",
@@ -35,6 +49,9 @@ namespace Launchwares_API.Models
         }
     }
     
+    /// <summary>
+    /// License object
+    /// </summary>
     [JsonObject]
     public class License
     {

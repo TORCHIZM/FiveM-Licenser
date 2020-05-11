@@ -7,8 +7,8 @@ namespace Launchwares_API.Firebase
 {
     public static class FirebaseConnection
     {
-        static readonly string authSecret = "YOUR AUTHSECRET HERE";
-        static readonly string basePath = "YOUR BASEPATH HERE";
+        static readonly string authSecret = "YOUR AUTHSECRET";
+        static readonly string basePath = "YOUR BASEPATH";
 
         public static IFirebaseConfig config = new FirebaseConfig
         {
